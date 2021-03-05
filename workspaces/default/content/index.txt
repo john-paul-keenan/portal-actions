@@ -1,0 +1,8 @@
+---
+layout: homepage.html
+title: Home
+
+hero:
+  title: Portal Changed through GH Actions
+  tagline: Quickly make live changes
+---

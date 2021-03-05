@@ -1,0 +1,16 @@
+name: Action on Push to push config to Kong; Publish to Dev Portal
+
+on:
+  push:
+    branches: 
+      - master
+jobs:
+  deploy_to_kong:
+    runs-on: self-hosted
+    name: AAction on Push to push config to Kong; Publish to Dev Portal
+    steps:        
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Publish Spec to Dev Portal
+      run: |
+        portal deploy default
