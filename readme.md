@@ -9,7 +9,7 @@
 
 ## Steps to Demo:
 1. Clone this repo and CD into it.
-Take note of the files in the workspaces/default/ directory. Those are the same files as the default Kong portal. With Kong running, issue the following command to sync your portal with the files in this repo
+Take note of the files in the workspaces/default/ directory. Those are the same files as the default Kong portal. With Kong running, issue the following command to sync your Kong Dev Portal  default workspace with the files in this repo
 `portal deploy default`
 
 2. In this repo, take a look at the jpmcDemo/.github/workflows/ actions_push.yaml
